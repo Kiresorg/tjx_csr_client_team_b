@@ -4,16 +4,58 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
+  <title>20% Weekenders</title>
   <meta name="description" content="Client Side Application">
   <meta name="author" content="20% Weekenders">
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+  <link rel="stylesheet" type="text/css" href="../css/login.css"> 
 
 </head>
+   
+  <body>
 
-<body>
-  Skeleton
+    <section class="hero is-success is-fullheight">
+      <div class="hero-body has-background-grey-lighter">
+          <div class="container has-text-centered">
+              <div class="column is-4 is-offset-4">
+                  <h3 class="title has-text-black">CSR Portal</h3>
+                  <hr class="login-hr">
+                  <p class="subtitle has-text-black">Please login to proceed.</p>
+                  <div class="box">
+                      <figure class="avatar">
+                          <img src="https://www.tjx.com/includes/img/tjx-logo-mobile.svg">
+                      </figure>
+                      <form>
+                          <div class="field">
+                              <div class="control">
+                                  <input class="input is-large" type="email" placeholder="Your Email" autofocus="">
+                              </div>
+                          </div>
 
-  <script src="js/app.js"></script>
+                          <div class="field">
+                              <div class="control">
+                                  <input class="input is-large" type="password" placeholder="Your Password">
+                              </div>
+                          </div>
+                          <div class="field">
+                              <label class="checkbox">
+                <input type="checkbox">
+                Remember me
+              </label>
+                          </div>
+                          <button class="button is-block is-info is-large is-fullwidth is-dark">Login <i class="fa fa-sign-in" aria-hidden="true"></i></button>
+                      </form>
+                  </div>
+                  <p class="has-text-grey">
+                      <a href="../">Create Account</a> &nbsp;·&nbsp;
+                  </p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <script async type="text/javascript" src="../js/bulma.js"></script>   
 
-</body>
+    <script src="js/app.js"></script>
+
+  </body>
 </html>
